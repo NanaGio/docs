@@ -1,0 +1,27 @@
+body{
+    background-color: 42353F;
+}
+
+img{
+    width: 290px;
+    height: auto;
+}
+
+h1{
+    font-family: "Silkscreen", serif;
+    color: aliceblue;
+}
+
+@media (min-width: 78px) {
+    .col-6 {
+        width: 50%;
+        margin-right: 30%;
+    }
+    .col-6 img {
+        max-width: 100%; 
+    }
+}
+
+b{
+    color: white;
+}
